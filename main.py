@@ -1,3 +1,12 @@
+'''
+# pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python pip install requests streamlit
+pip install langgraph langchain-groq sqlite3
+# install SQLite and create database
+CREATE DATABASE langgraph_memory
+'''
+# LangGraph Multi-Agent Travel Booking System with Long-Term Memory
+
+
 from typing import TypedDict, Annotated
 import operator
 import sqlite3
