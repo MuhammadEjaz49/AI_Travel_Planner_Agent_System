@@ -55,3 +55,63 @@ Itinerary Agent creates travel plan
 Final Agent combines everything together
 
 SQLite stores conversation memory
+______________________________________________________________________________________
+
+Step 1: Create Python Environment
+--------------------------------------------------------------------------------------
+Open the terminal inside the project folder and run:
+
+	python -m venv venv
+Now activate the environment:
+
+Windows
+	venv\Scripts\activate
+ --------------------------------------------------------------------------------- 
+Step 2: Install Dependencies
+-------------------------------------------------------------------------------------
+Run the following command:
+
+	pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python requests streamlit pip install langgraph langchain-groq sqlite3
+
+	pip install -U "psycopg[binary,pool]"  langgraph-checkpoint-postgres
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+Step 3: Setup .env File
+------------------------------------------------------------------------------------------------------------
+
+Create a .env file inside the project folder.
+
+Add the following keys:
+
+GROQ_API_KEY=your_groq_api_key
+
+TAVILY_API_KEY=your_tavily_api_key
+
+AVIATIONSTACK_API_KEY=your_aviationstack_api_key
+
+
+---------------------------------------------------------------------------------------------------------
+
+Step 4: Get API Keys
+---------------------------------------------------------------------------------------------------------
+Get Groq API Key
+https://console.groq.com
+
+Get Tavily API Key
+https://tavily.com
+
+Get AviationStack API Key
+https://aviationstack.com
+--------------------------------------------------------------------------------------------------------
+Step 5: Run the Application
+----------------------------------------------------------------------------------------------------------
+Run Streamlit Web App
+	streamlit run frontend.py
+This will launch the Multi-Agent AI web application.
