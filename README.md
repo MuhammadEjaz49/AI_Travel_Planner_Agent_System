@@ -70,7 +70,7 @@ Step 2: Install Dependencies
 -------------------------------------------------------------------------------------
 Run the following command:
 
-	pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python requests streamlit pip install langgraph langchain-groq sqlite3
+	pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily python-dotenv tavily-python requests streamlit pip install langgraph langchain-groq sqlite3
 
 ------------------------------------------------------------------------------------------------------------
 
