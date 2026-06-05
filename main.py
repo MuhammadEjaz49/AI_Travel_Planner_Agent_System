@@ -1,5 +1,5 @@
 '''
-# pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python pip install requests streamlit
+# pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily python-dotenv tavily-python pip install requests streamlit
 pip install langgraph langchain-groq sqlite3
 # install SQLite and create database
 CREATE DATABASE langgraph_memory
