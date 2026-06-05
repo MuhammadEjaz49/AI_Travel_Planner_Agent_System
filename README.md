@@ -64,7 +64,6 @@ Open the terminal inside the project folder and run:
 	python -m venv venv
 Now activate the environment:
 
-Windows
 	venv\Scripts\activate
  --------------------------------------------------------------------------------- 
 Step 2: Install Dependencies
@@ -72,14 +71,6 @@ Step 2: Install Dependencies
 Run the following command:
 
 	pip install langgraph langchain langchain-openai langchain-groq langchain-community langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python requests streamlit pip install langgraph langchain-groq sqlite3
-
-	pip install -U "psycopg[binary,pool]"  langgraph-checkpoint-postgres
-
-
-
-
-
-
 
 ------------------------------------------------------------------------------------------------------------
 
